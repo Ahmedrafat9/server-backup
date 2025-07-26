@@ -1,2 +1,27 @@
+# Ignore GPG keys
 privatekey.asc
 publickey.asc
+
+# Ignore archives & encrypted files
+*.tar
+*.tar.gz
+*.tgz
+*.gpg
+
+# Ignore AWS credentials or sensitive config if any
+*.pem
+*.key
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# MacOS
+.DS_Store
+
+# Backup folders
+local-backups/
+restore-backup/
+restore-dir/
